@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAY! It's BOGO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="checkout-box-container">
+        <h2 class="heading">YAY! It's BOGO</h2>
+
+        <div class="checkouts">
+          <div
+            id="checkout-1"
+            class="checkout-box"
+            onclick="selectUnit('checkout-1')"
+          >
+            <div class="checkout-box-header">
+              <div class="checkout-info">
+                <div class="custom-radio">
+                  <div>
+                    <span class="custom-radio-border">
+                      <span class="custom-radio-circle"></span>
+                    </span>
+                  </div>
+                </div>
+                <div class="checkout-unit">
+                  <div class="unit-discount">
+                    <strong> 1 Unit </strong>
+                    &nbsp;
+                    <span class="discount">10% Off</span>
+                  </div>
+                  <span>Standard Price</span>
+                </div>
+              </div>
+              <div class="checkout-price">
+                <span class="price">$10.00 USD</span>
+                <br />
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="checkout-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="row-number"></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="row-number">#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="row-number">#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div
+            id="checkout-2"
+            class="checkout-box"
+            onclick="selectUnit('checkout-2')"
+          >
+            <div class="banner">
+              <span>MOST POPULAR</span>
+            </div>
+            <div class="checkout-box-header">
+              <div class="checkout-info">
+                <div class="custom-radio">
+                  <div>
+                    <span class="custom-radio-border">
+                      <span class="custom-radio-circle"></span>
+                    </span>
+                  </div>
+                </div>
+                <div class="checkout-unit">
+                  <div class="unit-discount">
+                    <strong> 2 Unit </strong>
+                    &nbsp;
+                    <span class="discount">20% Off</span>
+                  </div>
+                </div>
+              </div>
+              <div class="checkout-price">
+                <span class="price">$18.00 USD</span>
+                <br />
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="checkout-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="row-number"></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="row-number">#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="row-number">#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div
+            id="checkout-3"
+            class="checkout-box"
+            onclick="selectUnit('checkout-3')"
+          >
+            <div class="checkout-box-header">
+              <div class="checkout-info">
+                <div class="custom-radio">
+                  <div>
+                    <span class="custom-radio-border">
+                      <span class="custom-radio-circle"></span>
+                    </span>
+                  </div>
+                </div>
+                <div class="checkout-unit">
+                  <div class="unit-discount">
+                    <strong> 3 Unit </strong>
+                    &nbsp;
+                    <span class="discount static-discount">30% Off</span>
+                  </div>
+                </div>
+              </div>
+              <div class="checkout-price">
+                <span class="price">$24.00 USD</span>
+                <br />
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="checkout-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="row-number"></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="row-number">#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="row-number">#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Green</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="delivery">
+            <span style="color: #ff6b82">Free delivery</span>
+            <span>Total: $18.00USD</span>
+          </div>
+          <button class="add-to-cart">+ Add to Cart</button>
+          <p class="powered-by">© Powered by Pumper</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
